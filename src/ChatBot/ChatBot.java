@@ -28,5 +28,17 @@ public class ChatBot {
             if (i==number){
                 System.out.println("I did it!");}
         }
+        System.out.println("What is responsible for the sensitivity in the camera's matrix ?");
+        System.out.println("1.ISO\n2.Diaphragm\n3.Excerpt\n4.Your hands :D ");
+        while (true) {
+            int user_answer = scanner.nextInt();
+            if (user_answer == 1) {
+                System.out.println("Nice man!");
+                break;
+            } else {
+                System.out.println("Myabe good luck next time :) Go try again !");
+            }
+        }
+        System.out.println("Goodbye! Have a nice day");
     }
 }
