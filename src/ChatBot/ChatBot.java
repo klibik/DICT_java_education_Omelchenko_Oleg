@@ -20,5 +20,13 @@ public class ChatBot {
         int remainder7 = scanner.nextInt();
         int age = (remainder3*70+remainder5*21+remainder7*15)%105;
         System.out.println("Your age is "+age+", nice age ;)");
+
+        System.out.println("Now I try to count any number that you want");
+        int number = scanner.nextInt();
+        for (int i=0; i<number+1; i++){
+            System.out.println(i+"!");
+            if (i==number){
+                System.out.println("I did it!");}
+        }
     }
 }
